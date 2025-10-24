@@ -1,4 +1,4 @@
-# PyHEP 2025 Coffea schemas modifications
+# PyHEP 2025 Awkward Zipper
 
 ## Local environment with Pixi
 
