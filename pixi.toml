@@ -1,0 +1,17 @@
+[workspace]
+authors = ["Iason Krommydas <iason.krom@gmail.com>"]
+channels = ["conda-forge"]
+name = "awkward-zipper"
+platforms = ["win-64", "linux-64", "osx-64", "osx-arm64"]
+version = "0.1.0"
+
+[tasks.lab]
+description = "Launch Jupyter Lab"
+cmd = "jupyter lab"
+
+[tasks.start]
+depends-on = ["lab"]
+
+[dependencies]
+python = "3.13.*"
+jupyterlab = ">=4.4.10,<5"
